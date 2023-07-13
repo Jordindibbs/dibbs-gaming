@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Brass: Birmingham",
     image:
       "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__imagepagezoom/img/7a0LOL48K-7JNIOSGtcsNsIxkN0=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3490053.jpg",
@@ -14,7 +13,6 @@ const products = [
     numReviews: 38936,
   },
   {
-    _id: "2",
     name: "Pandemic Legacy: Season 1",
     image:
       "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__imagepage/img/qZybAu8uJ9_sZlU2A65DIF6Y2Zw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2452831.png",
@@ -28,7 +26,6 @@ const products = [
     numReviews: 50760,
   },
   {
-    _id: "3",
     name: "Gloomhaven",
     image:
       "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__imagepagezoom/img/tzd7s5trxMU7W01HxXd4PPSwEfM=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic2437871.jpg",
@@ -42,7 +39,6 @@ const products = [
     numReviews: 58620,
   },
   {
-    _id: "4",
     name: "Ark Nova",
     image:
       "https://cf.geekdo-images.com/SoU8p28Sk1s8MSvoM4N8pQ__imagepagezoom/img/3AiTYsFmreOKB3V2xTmolY1JiOo=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic6293412.jpg",
@@ -56,7 +52,6 @@ const products = [
     numReviews: 31644,
   },
   {
-    _id: "5",
     name: "Twilight Imperium: Fourth Edition",
     image:
       "https://cf.geekdo-images.com/_Ppn5lssO5OaildSE-FgFA__imagepagezoom/img/XukF6G6yGYG06y-ODGk7usmxZ-U=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3727516.jpg",
@@ -70,7 +65,6 @@ const products = [
     numReviews: 21030,
   },
   {
-    _id: "6",
     name: "Terraforming Mars",
     image:
       "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__imagepage/img/FS1RE8Ue6nk1pNbPI3l-OSapQGc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3536616.jpg",
@@ -84,7 +78,6 @@ const products = [
     numReviews: 90441,
   },
   {
-    _id: "7",
     name: "Gloomhaven: Jaws of the Lion",
     image:
       "https://cf.geekdo-images.com/_HhIdavYW-hid20Iq3hhmg__imagepagezoom/img/BnpSrhl1Xcn5dJIo0d-1kNOf_jE=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic5055631.jpg",
@@ -98,7 +91,6 @@ const products = [
     numReviews: 29194,
   },
   {
-    _id: "8",
     name: "Dune: Imperium",
     image:
       "https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__imagepagezoom/img/iJVF13_ajmH4G8Ku7RQetoRQHUU=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic5666597.jpg",
@@ -112,7 +104,6 @@ const products = [
     numReviews: 35094,
   },
   {
-    _id: "9",
     name: "War of the Ring: Second Edition",
     image:
       "https://cf.geekdo-images.com/ImPgGag98W6gpV1KV812aA__imagepagezoom/img/1pFa7snI0RdKNxFzmoG8iOUWbo4=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic1215633.jpg",
@@ -126,7 +117,6 @@ const products = [
     numReviews: 19233,
   },
   {
-    _id: "10",
     name: "Star Wars: Rebellion",
     image:
       "https://cf.geekdo-images.com/7SrPNGBKg9IIsP4UQpOi8g__imagepagezoom/img/cvaTGqGnEhAvZ2tYnlu2IOp6fP0=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic4325841.jpg",
@@ -140,7 +130,6 @@ const products = [
     numReviews: 30073,
   },
   {
-    _id: "11",
     name: "Spirit Island",
     image:
       "https://cf.geekdo-images.com/kjCm4ZvPjIZxS-mYgSPy1g__imagepagezoom/img/XMJcthqDMCK1NQl04WW33U2Zy5c=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7013651.jpg",
@@ -154,7 +143,6 @@ const products = [
     numReviews: 44635,
   },
   {
-    _id: "12",
     name: "Gaia Project",
     image:
       "https://cf.geekdo-images.com/hGWFm3hbMlCDsfCsauOQ4g__imagepagezoom/img/lhc5bvymQDapD8MckZaFU5SkQQ0=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic5375625.png",
@@ -168,7 +156,6 @@ const products = [
     numReviews: 24690,
   },
   {
-    _id: "13",
     name: "Through the Ages: A New Story of Civilization",
     image:
       "https://cf.geekdo-images.com/fVwPntkJKgaEo0rIC0RwpA__imagepagezoom/img/t3eAk2lBOUS8VdEEHtXaDn3qbOk=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic2663291.jpg",
@@ -182,7 +169,6 @@ const products = [
     numReviews: 29720,
   },
   {
-    _id: "14",
     name: "Twilight Struggle",
     image:
       "https://cf.geekdo-images.com/pNCiUUphnoeWOYfsWq0kng__imagepagezoom/img/WNIKo8BdPon4vsBwnlrRE_ooFfc=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3530661.jpg",
@@ -196,7 +182,6 @@ const products = [
     numReviews: 46760,
   },
   {
-    _id: "15",
     name: "Great Western Trail",
     image:
       "https://cf.geekdo-images.com/u1l0gH7sb_vnvDvoO_QHqA__imagepagezoom/img/cJyIiNTccBaE7UjYIsP2c-nkssE=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic4887376.jpg",
@@ -210,7 +195,6 @@ const products = [
     numReviews: 38608,
   },
   {
-    _id: "16",
     name: "Scythe ",
     image:
       "https://cf.geekdo-images.com/7k_nOxpO9OGIjhLq2BUZdA__imagepagezoom/img/0dn7QcDY2l5ljFXv6OYk46irzZg=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3163924.jpg",
@@ -224,7 +208,6 @@ const products = [
     numReviews: 77081,
   },
   {
-    _id: "17",
     name: "The Castles of Burgundy",
     image:
       "https://cf.geekdo-images.com/5CFwjd8zTcGYVUnkXh04hw__imagepage/img/hGdIQZbCqxvEyQ5s8ETrmypyIlA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1176894.jpg",
@@ -238,7 +221,6 @@ const products = [
     numReviews: 58052,
   },
   {
-    _id: "18",
     name: "7 Wonders Duel",
     image:
       "https://cf.geekdo-images.com/zdagMskTF7wJBPjX74XsRw__imagepagezoom/img/hqfSL-b3mF1jzj3KKYadPyASCuM=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic2576399.jpg",
@@ -252,7 +234,6 @@ const products = [
     numReviews: 85495,
   },
   {
-    _id: "19",
     name: "Nemesis",
     image:
       "https://cf.geekdo-images.com/tAqLpWxQ0Oo3GaPP3MER1g__imagepagezoom/img/EdbcoIjK0fbLtbvadXuMATf7ubA=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic5073276.jpg",
@@ -266,7 +247,6 @@ const products = [
     numReviews: 26556,
   },
   {
-    _id: "20",
     name: "Brass: Lancashire",
     image:
       "https://cf.geekdo-images.com/tHVtPzu82mBpeQbbZkV6EA__imagepagezoom/img/48ahzluGaNs12es1gL6XgGccVYc=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3469216.jpg",
@@ -280,7 +260,6 @@ const products = [
     numReviews: 23580,
   },
   {
-    _id: "21",
     name: "Eclipse: Second Dawn for the Galaxy",
     image:
       "https://cf.geekdo-images.com/Oh3kHw6lweg6ru71Q16h2Q__imagepagezoom/img/f5DzGiV--191s8QNZMqB0j-DQyU=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic5235277.jpg",
@@ -294,7 +273,6 @@ const products = [
     numReviews: 10867,
   },
   {
-    _id: "22",
     name: "Concordia",
     image:
       "https://cf.geekdo-images.com/CzwSm8i7tkLz6cBnrILZBg__imagepagezoom/img/g3w_7AtYcrpbY1d3V4iKdcAz_Ts=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3453267.jpg",
@@ -308,7 +286,6 @@ const products = [
     numReviews: 37562,
   },
   {
-    _id: "23",
     name: "A Feast for Odin",
     image:
       "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__imagepagezoom/img/0ud6d1m1P8vnNEA3_SRditMKinw=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3146943.png",
@@ -322,7 +299,6 @@ const products = [
     numReviews: 25619,
   },
   {
-    _id: "24",
     name: "Clank!: Legacy Acquisitions Incorporated",
     image:
       "https://cf.geekdo-images.com/hc2NDafu5c24iLJh_IZmyg__imagepagezoom/img/oVz6aIKXwzfivFKUIjgRf8814RY=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic4885780.png",
@@ -336,7 +312,6 @@ const products = [
     numReviews: 8143,
   },
   {
-    _id: "25",
     name: "Wingspan",
     image:
       "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__imagepagezoom/img/yS4vL6iTCvHSvGySxyOjV_-R3dI=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic4458123.jpg",
