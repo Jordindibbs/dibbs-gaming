@@ -1,20 +1,18 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaShoppingCart, FaUser } from "react-icons/fa";
 
-const footer = () => {
+const Footer = () => {
   const currentYear = new Date().getFullYear();
+
   return (
     <footer>
-      <container>
+      <Container>
         <Row>
-          <Col className="text-center" py-3>
+          <Col className="text-center py-3">
             <p>Dibbs Gaming &copy; {currentYear}</p>
           </Col>
         </Row>
-      </container>
+      </Container>
     </footer>
   );
 };
-
-export default footer;
+export default Footer;

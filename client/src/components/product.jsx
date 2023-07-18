@@ -1,17 +1,12 @@
-import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Rating from "./rating";
+import Rating from "./Rating";
 
-const product = ({ product }) => {
+const Product = ({ product }) => {
   return (
     <Card className="my-3 p-3 rounded">
       <Link to={`/product/${product._id}`}>
-        <Card.Img
-          src={product.image}
-          variant="top"
-          style={{ maxWidth: "100%", height: "250px" }}
-        />
+        <Card.Img src={product.image} variant="top" />
       </Link>
 
       <Card.Body>
@@ -34,4 +29,4 @@ const product = ({ product }) => {
   );
 };
 
-export default product;
+export default Product;
